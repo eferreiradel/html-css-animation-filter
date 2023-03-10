@@ -10,8 +10,8 @@
 main {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
-;    background-color:rgb(172, 172, 172);
-    padding: 2rem;
+    background-color:rgb(172, 172, 172);
+    width: 100%;
 }
 .container {
     margin: auto;
@@ -19,6 +19,7 @@ main {
     border-bottom: 2px dashed black;
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: rgb(237, 237, 237);
     margin-bottom: 1rem;
     padding: 2rem 1rem;
@@ -82,4 +83,23 @@ span {
 .img--7:hover {
     border-radius: 25px;
     filter:grayscale();
+}
+.img--8 {
+    width: 250px;
+    transition: all .2s ease-out, border-radius .2s, filter .3s;
+}
+.img--8:hover {
+    transform: scale(1.2);
+    border-radius: 25px;
+    filter: grayscale();
+}
+.ex--9 i {
+    font-size: 100px;
+    animation: rotation 1s infinite linear;
+}
+@keyframes rotation  {
+    from { transform: rotate(0deg);
+    }
+    to { transform: rotate(360deg);
+    }
 }
