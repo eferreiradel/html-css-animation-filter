@@ -17,13 +17,14 @@ main {
     border-bottom: 2px dashed black;
     display: flex;
     align-items: center;
-    justify-content: center;
     background-color: lightgray;
     height: 150px;
     width: 100%;
     max-width: 1500px;
     margin-bottom: 1rem;
+    padding: 1rem;
 }
+
 span {
     position: absolute ;
     top: 0;
@@ -43,3 +44,18 @@ span {
 .ex--1:hover {
     background-color:darkgray;
 }
+
+
+.ex--2 {
+    transition: width 3s;
+}
+.ex--2:hover {
+    width: 100%;
+}
+.ex--3 {
+    transition: border-radius 0.5s;
+}
+.ex--3:hover {
+    border-radius: 50px;
+}
+
