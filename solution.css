@@ -1,0 +1,45 @@
+:root {
+    font-size: 20px;
+
+}
+*body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    width: 100%;
+}
+.container {
+    position: relative;
+    border-bottom: 2px dashed black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    height: 150px;
+    width: 100%;
+    max-width: 1500px;
+    margin-bottom: 1rem;
+}
+span {
+    position: absolute ;
+    top: 0;
+    left: 0;
+}
+.square {
+    border: 2px dashed black;
+    background-color: darkgray;
+    height: 100px;
+    width: 100px;
+}
+
+.ex--1 {
+    background-color: rgba(169, 169, 169, 0);
+    transition: background-color 2s ;
+}
+.ex--1:hover {
+    background-color:darkgray;
+}
