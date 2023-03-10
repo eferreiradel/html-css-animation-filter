@@ -20,9 +20,8 @@ main {
     display: flex;
     align-items: center;
     background-color: rgb(237, 237, 237);
-    height: 150px;
     margin-bottom: 1rem;
-    padding: 1rem;
+    padding: 2rem 1rem;
 }
 
 span {
@@ -70,4 +69,17 @@ span {
 .ex--5:hover {
     transform: scale(1.1);
 }
+.ex--6 {
+    height: 100%;
+}
 
+.img--6:hover {
+    filter: grayscale();
+}
+.img--7 {
+    transition: border-radius 2s, filter 2s;
+}
+.img--7:hover {
+    border-radius: 25px;
+    filter:grayscale();
+}
